@@ -1,0 +1,931 @@
+{
+  "checkpoints": {
+    "1": {
+      "id": 1,
+      "position": {
+        "x": -2.153587485760401,
+        "y": 5.714737369617939e-06,
+        "z": 3.034899865286885
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 2,
+          "distance": 2.5030325571390857,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 21,
+          "distance": 2.3036494724392886,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],"passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:30.471983",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 0.517761315532773,
+            "right": 0.3777497565131993
+          },
+          "orientation": {
+            "roll": -3.6634973660123895e-15,
+            "pitch": 0.00754175268066191,
+            "yaw": 3.141589999999999
+          },
+          "velocity": {
+            "vx": -0.2172707310089185,
+            "vy": 5.765473543680834e-07,
+            "vz": -0.017762730465519516
+          }
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "position": {
+        "x": -4.65657550993972,
+        "y": 1.235664069433942e-05,
+        "z": 3.0199689286442988
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 1,
+          "distance": 2.5030325571390857,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 3,
+          "distance": 2.321511265180902,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:33.379253",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 0.5192378029895593,
+            "right": 0.3792131640515994
+          },
+          "orientation": {
+            "roll": -4.8714001888484195e-15,
+            "pitch": -0.010936024506765151,
+            "yaw": 3.1415899999999986
+          },
+          "velocity": {
+            "vx": -0.9148348041591069,
+            "vy": 2.4275962444157435e-06,
+            "vz": -0.005457213685155795
+          }
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "position": {
+        "x": -6.959060183868036,
+        "y": 0.29546443630083213,
+        "z": 3.0461786465280167
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 2,
+          "distance": 2.321511265180902,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 4,
+          "distance": 2.448177934828836,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:37.822310",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.3738864943695072,
+            "right": 0.5201379659443569
+          },
+          "orientation": {
+            "roll": 0.0012500611560823775,
+            "pitch": -0.026028992375713184,
+            "yaw": 2.6579151323598182
+          },
+          "velocity": {
+            "vx": -0.5471684111046381,
+            "vy": 0.07021199611695293,
+            "vz": 0.006228545124457691
+          }
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "position": {
+        "x": -9.06455940666826,
+        "y": 1.5372594555942383,
+        "z": 2.9105565486658964
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 3,
+          "distance": 2.448177934828836,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 5,
+          "distance": 2.5551779628141764,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:45.819648",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.37810789631831954,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 1.8778057659873894e-05,
+            "pitch": 0.055508095981793945,
+            "yaw": 2.7892432782831507
+          },
+          "velocity": {
+            "vx": -0.27998659877662563,
+            "vy": 0.16513231639539977,
+            "vz": -0.018034853439111747
+          }
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "position": {
+        "x": -11.488236425571644,
+        "y": 2.336578546569824,
+        "z": 2.784806318078528
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 4,
+          "distance": 2.5551779628141764,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 6,
+          "distance": 2.5583268277296054,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:49.808309",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.4688680302369994,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 0.003586518680034206,
+            "pitch": 0.11139766430759915,
+            "yaw": 3.087313200853511
+          },
+          "velocity": {
+            "vx": -0.6432263850592842,
+            "vy": 0.21213351671326577,
+            "vz": -0.0333732034467538
+          }
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "position": {
+        "x": -14.029820078441835,
+        "y": 2.3203928717019227,
+        "z": 3.07657114953207
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 5,
+          "distance": 2.5583268277296054,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 7,
+          "distance": 2.484503093197232,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:53.517964",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.48746007871268027,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 0.0024633261658537652,
+            "pitch": 0.02338396693942059,
+            "yaw": -2.9038083552050162
+          },
+          "velocity": {
+            "vx": -0.7253378004766531,
+            "vy": -0.004619199448601953,
+            "vz": 0.08326621902212954
+          }
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "position": {
+        "x": -16.39737913989699,
+        "y": 1.569297845030558,
+        "z": 3.0193350460855672
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 6,
+          "distance": 2.484503093197232,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 8,
+          "distance": 2.5592194411395277,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:57.585627",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.36792744250561005,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": -0.0006623881291154573,
+            "pitch": 0.10008576123992494,
+            "yaw": -2.6612255082518894
+          },
+          "velocity": {
+            "vx": -0.6204295234421263,
+            "vy": -0.19682783717803046,
+            "vz": -0.0149989788905929
+          }
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "position": {
+        "x": -18.674409784462274,
+        "y": 0.4011092046462525,
+        "z": 3.0277547903927178
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 7,
+          "distance": 2.5592194411395277,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 9,
+          "distance": 2.5535923836606425,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:25:59.647921",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.4763270388983819,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 0.008023364789066874,
+            "pitch": 0.035245478401488194,
+            "yaw": -2.4772476353648423
+          },
+          "velocity": {
+            "vx": -1.1665116006994287,
+            "vy": -0.5984572952788455,
+            "vz": 0.004313393599974663
+          }
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "position": {
+        "x": -20.61998005719812,
+        "y": -1.2527932117513232,
+        "z": 3.013712968200901
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 8,
+          "distance": 2.5535923836606425,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 10,
+          "distance": 2.3129069303779675,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:02.792864",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.2942564204594394
+          },
+          "orientation": {
+            "roll": -0.0010663042180206017,
+            "pitch": -0.052595994347506905,
+            "yaw": -1.7802665577268626
+          },
+          "velocity": {
+            "vx": -0.6590685205744725,
+            "vy": -0.5602650462051398,
+            "vz": -0.004756714834626211
+          }
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "position": {
+        "x": -21.22332437856339,
+        "y": -3.485528868937906,
+        "z": 3.0338520742960737
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 9,
+          "distance": 2.3129069303779675,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 11,
+          "distance": 2.249640342499721,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:06.614323",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.4350910320310311
+          },
+          "orientation": {
+            "roll": -0.0007783801559875123,
+            "pitch": 0.08942416822259806,
+            "yaw": -1.273861970598517
+          },
+          "velocity": {
+            "vx": -0.16759564482368644,
+            "vy": -0.6202043492184962,
+            "vz": 0.005594196137547941
+          }
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "position": {
+        "x": -20.5558413049379,
+        "y": -5.633849676655068,
+        "z": 3.025745030740472
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 10,
+          "distance": 2.249640342499721,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 12,
+          "distance": 2.225265629407067,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:09.094455",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.4299685639103702
+          },
+          "orientation": {
+            "roll": 0.0010660069416834161,
+            "pitch": 0.037386312717042236,
+            "yaw": -0.7870439458318179
+          },
+          "velocity": {
+            "vx": 0.2837938238203611,
+            "vy": -0.9134017039613768,
+            "vz": -0.003446872260034712
+          }
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "position": {
+        "x": -18.960588551465673,
+        "y": -7.185248381686663,
+        "z": 3.0140048439448304
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 11,
+          "distance": 2.225265629407067,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 13,
+          "distance": 2.427251021001046,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:12.406954",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.37887700861217954
+          },
+          "orientation": {
+            "roll": 0.004307776865565777,
+            "pitch": 0.06546798243062367,
+            "yaw": -0.15113229342159434
+          },
+          "velocity": {
+            "vx": 0.5139345210928569,
+            "vy": -0.4998062838374987,
+            "vz": -0.0037822766738536432
+          }
+        }
+      ]
+    },
+    "13": {
+      "id": 13,
+      "position": {
+        "x": -16.592770651723736,
+        "y": -7.719070907424342,
+        "z": 3.009597619495366
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 12,
+          "distance": 2.427251021001046,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 14,
+          "distance": 2.5142436621396405,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:16.966154",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 0.5114404387808207,
+            "right": 0.3890789176889535
+          },
+          "orientation": {
+            "roll": 5.438402658762169e-05,
+            "pitch": 0.12775819816219913,
+            "yaw": -0.000695644087398743
+          },
+          "velocity": {
+            "vx": 0.5511680399771735,
+            "vy": -0.124260364464078,
+            "vz": -0.0010258902349777463
+          }
+        }
+      ]
+    },
+    "14": {
+      "id": 14,
+      "position": {
+        "x": -14.078718301163793,
+        "y": -7.740039179341586,
+        "z": 3.0324515650229937
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 13,
+          "distance": 2.5142436621396405,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 15,
+          "distance": 2.4965895134671707,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:18.867819",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 0.5301558471790029,
+            "right": 0.36585368397321394
+          },
+          "orientation": {
+            "roll": -9.845348801385627e-06,
+            "pitch": 0.0977004037235309,
+            "yaw": -0.0006975528474135715
+          },
+          "velocity": {
+            "vx": 1.3905156806194379,
+            "vy": -0.0115974955294492,
+            "vz": 0.012640456597139249
+          }
+        }
+      ]
+    },
+    "15": {
+      "id": 15,
+      "position": {
+        "x": -11.582146793914122,
+        "y": -7.7472581353854535,
+        "z": 3.0263038323526152
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 14,
+          "distance": 2.4965895134671707,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 16,
+          "distance": 2.5079105891943714,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:20.797503",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 0.5379897751994697,
+            "right": 0.35924865699763103
+          },
+          "orientation": {
+            "roll": -8.038896629632173e-07,
+            "pitch": 0.15446618193291656,
+            "yaw": -0.0006970525210405831
+          },
+          "velocity": {
+            "vx": 1.374764045842328,
+            "vy": -0.003975196059398194,
+            "vz": -0.0033853153471247155
+          }
+        }
+      ]
+    },
+    "16": {
+      "id": 16,
+      "position": {
+        "x": -9.074292983334129,
+        "y": -7.743653579826031,
+        "z": 3.042790048773778
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 15,
+          "distance": 2.5079105891943714,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 17,
+          "distance": 2.4006141373605767,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:22.882533",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.36129107356147144
+          },
+          "orientation": {
+            "roll": 0.00013214383734901636,
+            "pitch": 0.1345739557420646,
+            "yaw": 0.01434584742694496
+          },
+          "velocity": {
+            "vx": 1.2847611734528666,
+            "vy": 0.001846596085769791,
+            "vz": 0.008445807592808803
+          }
+        }
+      ]
+    },
+    "17": {
+      "id": 17,
+      "position": {
+        "x": -6.674051616566659,
+        "y": -7.715923231488508,
+        "z": 3.0108425052880436
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 16,
+          "distance": 2.4006141373605767,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 18,
+          "distance": 2.6094018160532726,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:24.561614",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.49025569002404173,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 0.0030833700321443356,
+            "pitch": 0.08665505385311459,
+            "yaw": 0.04540779263156986
+          },
+          "velocity": {
+            "vx": 1.5076893007333365,
+            "vy": 0.017418560513519678,
+            "vz": -0.020067552440787933
+          }
+        }
+      ]
+    },
+    "18": {
+      "id": 18,
+      "position": {
+        "x": -4.1566068147094635,
+        "y": -7.029306107033987,
+        "z": 3.0133785711605525
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 17,
+          "distance": 2.6094018160532726,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 19,
+          "distance": 2.4821752113076503,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:32.246255",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.4543721443875159,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": 0.0010743770577652596,
+            "pitch": 0.09863021200668771,
+            "yaw": 0.5040917578439383
+          },
+          "velocity": {
+            "vx": 0.34809800910635996,
+            "vy": 0.09494152716461844,
+            "vz": 0.0003506728252916033
+          }
+        }
+      ]
+    },
+    "19": {
+      "id": 19,
+      "position": {
+        "x": -2.018358942294989,
+        "y": -5.768815863846512,
+        "z": 3.0293210482055626
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 18,
+          "distance": 2.4821752113076503,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 20,
+          "distance": 2.2756053415359436,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:35.263025",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.4833414750946942
+          },
+          "orientation": {
+            "roll": 0.006458195468307403,
+            "pitch": -0.019914809223265006,
+            "yaw": 0.8537335535754818
+          },
+          "velocity": {
+            "vx": 0.7507892810444086,
+            "vy": 0.4425878662877373,
+            "vz": 0.005597779861309714
+          }
+        }
+      ]
+    },
+    "20": {
+      "id": 20,
+      "position": {
+        "x": -0.7392165601633458,
+        "y": -3.886849381033175,
+        "z": 3.0099150123222564
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 19,
+          "distance": 2.2756053415359436,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 21,
+          "distance": 2.529487579890577,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:38.284880",
+          "approach_side": "right",
+          "lidar_readings": {
+            "left": 2.0,
+            "right": 0.26422896979105553
+          },
+          "orientation": {
+            "roll": 0.001426931976580748,
+            "pitch": -0.059784284114809086,
+            "yaw": 1.369445619509827
+          },
+          "velocity": {
+            "vx": 0.4516745699617371,
+            "vy": 0.6645361874340859,
+            "vz": -0.0068524138006024315
+          }
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "position": {
+        "x": -0.3185823540710369,
+        "y": -1.392606549079335,
+        "z": 3.021183407623709
+      },
+      "connections": [
+        {
+          "to_checkpoint_id": 1,
+          "distance": 2.3036494724392886,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        },
+        {
+          "to_checkpoint_id": 20,
+          "distance": 2.529487579890577,
+          "difficulty": 1.0,
+          "average_speed": 0.0,
+          "best_approach_angle": 0.0
+        }
+      ],
+      "passage_history": [
+        {
+          "timestamp": "2025-05-22T02:26:42.071073",
+          "approach_side": "left",
+          "lidar_readings": {
+            "left": 0.3876517049648485,
+            "right": 2.0
+          },
+          "orientation": {
+            "roll": -0.0001660742445920257,
+            "pitch": -0.05193086752501168,
+            "yaw": 1.557967807900826
+          },
+          "velocity": {
+            "vx": 0.11762701512648481,
+            "vy": 0.6974951990922383,
+            "vz": 0.0031511172543212413
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "last_checkpoint_id": 21,
+    "last_update": "2025-05-22T02:26:42.071162"
+  }
+}
